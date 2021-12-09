@@ -31,7 +31,7 @@ export default function LandingPage() {
             </div>
 
             <div>
-            <button className={classes.btn} onClick={()=>{navigate("./common/SignUp.js") }} >Sign UP</button>
+            <button className={classes.btn} onClick={()=>{navigate("./common/SignUp.js") }} >Signup</button>
             </div>
             
         </div>
