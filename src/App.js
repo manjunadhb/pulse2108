@@ -15,10 +15,10 @@ function App() {
       <Routes>
      
       <Route path="/" element={<LandingPage/>} />
-      <Route path="/StudentDashBoard" element={<StudentDashBoard/>} />
-      <Route path="/ForgotPassword" element={<ForgotPassword/>} />
-      <Route path="/AdminDashBoard" element={<AdminDashBoard/>} />
-      <Route path="/SignUp" element={<SignUp/>} />
+      <Route path="/student/StudentDashBoard" element={<StudentDashBoard/>} />
+      <Route path="/common/ForgotPassword" element={<ForgotPassword/>} />
+      <Route path="/admin/AdminDashBoard" element={<AdminDashBoard/>} />
+      <Route path="/common/SignUp" element={<SignUp/>} />
       
 
 

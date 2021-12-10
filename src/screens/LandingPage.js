@@ -19,19 +19,19 @@ export default function LandingPage() {
         <div className={classes.buttonContainer}>
 
             <div>
-            <button className={classes.btn} onClick={()=>{navigate("./student/StudentDashboard.js") }}>User Dashboard</button>
+            <button className={classes.btn} onClick={()=>{navigate("./student/StudentDashboard") }}>User Dashboard</button>
             </div>
 
             <div>
-            <button className={classes.btn} onClick={()=>{navigate("./admin/AdminDashBoard.js") }}>Admin Dashboard</button>
+            <button className={classes.btn} onClick={()=>{navigate("./admin/AdminDashBoard") }}>Admin Dashboard</button>
             </div>
 
             <div>
-            <button className={classes.btn} onClick={()=>{navigate("./common/ForgotPassword.js") }}>Forgot Password</button>
+            <button className={classes.btn} onClick={()=>{navigate("./common/ForgotPassword") }}>Forgot Password</button>
             </div>
 
             <div>
-            <button className={classes.btn} onClick={()=>{navigate("./common/SignUp.js") }} >Signup</button>
+            <button className={classes.btn} onClick={()=>{navigate("./common/SignUp") }} >Signup</button>
             </div>
             
         </div>
