@@ -1,22 +1,14 @@
 import React from 'react'
 import {Button,Container,Nav,Navbar,NavDropdown} from 'react-bootstrap'
-import {Link,Route,Routes,BrowserRoute} from 'react-router-dom'
 import pulseLogo from '../../images/brnlogopluse.png'
-import Home from './Home'
 
-
-
-
-export default function StudentDashboard() {
-
-  
-
+export default function CreateRequest() {
     return (
         <div>
-        
-         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand  href="/home"><img src={pulseLogo}></img></Navbar.Brand>
+  <Navbar.Brand  href="#home"><img src={pulseLogo}></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
@@ -24,7 +16,7 @@ export default function StudentDashboard() {
       <Nav.Link href="/dsu">DailyStatus Update</Nav.Link>
       <Nav.Link href="/task">Task</Nav.Link>
       <Nav.Link href="/messages">Messages</Nav.Link>
-      <NavDropdown title="More" id="collasible-nav-dropdown" variant="dark">
+      <NavDropdown title="More" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/createrequest">Create a Request</NavDropdown.Item>
         <NavDropdown.Item href="/applyleave">Apply Leave</NavDropdown.Item>
         <NavDropdown.Item href="/curriculam">Curriculam</NavDropdown.Item>
@@ -34,16 +26,17 @@ export default function StudentDashboard() {
     </Nav>
     <Nav>
       
-      
-      <NavDropdown title="ProfileName" id="collasible-nav-dropdown">
+    <NavDropdown title="ProfileName" id="collasible-nav-dropdown">
 
-        <NavDropdown.Item href="/logout">LogOut</NavDropdown.Item>
+<NavDropdown.Item href="/logout">LogOut</NavDropdown.Item>
 
-     </NavDropdown>
+</NavDropdown>
     </Nav>
   </Navbar.Collapse>
   </Container>
 </Navbar>
+            <h1>Create Request</h1>
         </div>
     )
 }
+

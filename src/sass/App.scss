@@ -3,4 +3,6 @@ body {
     background-color: aqua;
 }
 
-@import '../../src/screens/LandingPage.module.css'
+@import '../../src/screens/LandingPage.module.css';
+
+@import '_studentDashboard.scss';

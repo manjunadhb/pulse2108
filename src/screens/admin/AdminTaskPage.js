@@ -3,11 +3,11 @@ import {Button,Container,Nav,Navbar,NavDropdown} from 'react-bootstrap'
 import {Link,Route,Routes,BrowserRoute} from 'react-router-dom'
 import pulseLogo from '../../images/brnlogopluse.png'
 
-export default function AdminDashBoard() {
+export default function AdminTaskPage() {
     return (
         <div>
-           
-         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
   <Navbar.Brand  href="/home"><img src={pulseLogo}></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -55,6 +55,7 @@ export default function AdminDashBoard() {
   </Navbar.Collapse>
   </Container>
 </Navbar>
+            <h1>Admin task Page</h1>
         </div>
     )
 }
