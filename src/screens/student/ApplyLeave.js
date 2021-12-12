@@ -2,11 +2,14 @@ import React from 'react'
 import {Button,Container,Nav,Navbar,NavDropdown} from 'react-bootstrap';
 
 import pulseLogo from '../../images/brnlogopluse.png'
+import StudentNavbar from './StudentNavbar'
 
 export default function ApplyLeave() {
     return (
         <div>
+<StudentNavbar/>
 
+<<<<<<< HEAD
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
   <Navbar.Brand  href="#home"><img src={pulseLogo}></img></Navbar.Brand>
@@ -118,6 +121,9 @@ export default function ApplyLeave() {
                 </div>
 
                    
+=======
+            <h1>ApplyLeave</h1>
+>>>>>>> 63401c4212c868cb78ad2f538e3aa6ea809f5029
         </div>
 
 

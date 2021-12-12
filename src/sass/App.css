@@ -11295,6 +11295,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+<<<<<<< HEAD
 .head1 {
   display: flex;
   flex-direction: row;
@@ -11377,6 +11378,8 @@ textarea.form-control-lg {
   right: 25px;
 }
 
+=======
+>>>>>>> 63401c4212c868cb78ad2f538e3aa6ea809f5029
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -22623,4 +22626,23 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+<<<<<<< HEAD
+=======
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.signUpCss {
+  background-image: url("https://assets.website-files.com/5b14df37b45b89efff85e133/5b14dfedd0d5fe56c1f291f9_travel-sign-up-webflow.jpg");
+  background-size: cover;
+}
+
+.signupImg {
+  width: 100%;
+  height: 590px;
+  border-radius: 20px;
+>>>>>>> 63401c4212c868cb78ad2f538e3aa6ea809f5029
 }/*# sourceMappingURL=App.css.map */
