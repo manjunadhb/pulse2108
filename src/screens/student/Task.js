@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link,Route,Routes,BrowserRoute} from 'react-router-dom'
-import {Button,Container,Nav,Navbar,NavDropdown,Dropdown,DropdownButton,InputGroup,FormControl} from 'react-bootstrap'
+import {Container,Nav,Navbar,NavDropdown,Dropdown,DropdownButton,InputGroup} from 'react-bootstrap'
 import pulseLogo from '../../images/brnlogopluse.png'
 import homeicon from '../../images/homeicon.png'
 import refreshlogo from '../../images/refresh.gif'
@@ -11,7 +11,7 @@ export default function Task() {
         <div>
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand  href="#home"><img src={pulseLogo}></img></Navbar.Brand>
+  <Navbar.Brand  href="#home"><img src={pulseLogo} alt='pulse logo'></img></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
