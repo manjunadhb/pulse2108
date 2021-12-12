@@ -50,6 +50,15 @@ export default function Task() {
         
           
         </div>
+{/* import StudentNavbar from './StudentNavbar'
+
+export default function Task() {
+    return (
+        <div>
+<StudentNavbar/>
+            <h1>Tasks</h1>
         </div>
+    ) */}
+    </div>
     )
 }
