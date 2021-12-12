@@ -9,7 +9,7 @@ export default function ApplyLeave() {
         <div>
 <StudentNavbar/>
 
-<<<<<<< HEAD
+
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
   <Navbar.Brand  href="#home"><img src={pulseLogo}></img></Navbar.Brand>
