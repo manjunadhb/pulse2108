@@ -9,59 +9,13 @@ export default function ApplyLeave() {
         <div>
 <StudentNavbar/>
 
-
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Container>
-  <Navbar.Brand  href="#home"><img src={pulseLogo}></img></Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
-      <Nav.Link variant="primary" href="/home">HOME</Nav.Link>
-      <Nav.Link href="/dsu">DailyStatus Update</Nav.Link>
-      <Nav.Link href="/task">Task</Nav.Link>
-      <Nav.Link href="/messages">Messages</Nav.Link>
-      <NavDropdown title="More" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="/createrequest">Create a Request</NavDropdown.Item>
-        <NavDropdown.Item href="/applyleave">Apply Leave</NavDropdown.Item>
-        <NavDropdown.Item href="/curriculam">Curriculam</NavDropdown.Item>
-      
-        
-      </NavDropdown>
-    </Nav>
-    <Nav>
-      
-    <NavDropdown title="ProfileName" id="collasible-nav-dropdown">
-
-<NavDropdown.Item href="/logout">LogOut</NavDropdown.Item>
-
-</NavDropdown>
-    </Nav>
-  </Navbar.Collapse>
-  </Container>
-</Navbar>
-            
+ 
 
         <div className='head1'>
                 <h3 className='title'>Apply for Leaves </h3>
                 <h6 className='subTitle'> Choose Leave type,Dates and Describe. </h6> </div>
 
-   <Navbar className="titleBar" bg="light" variant="light">
-    <Container>
-    <Navbar.Brand href="#home">Home &gt; Apply Leave &gt;  </Navbar.Brand>
-    </Container>
-  </Navbar>
-
-             <br></br>
-  
-        <div className='mainPage'>
-    
-                 <Navbar bg="primary" variant="dark">
-                 <Container>
-                 <Navbar.Brand href="#home">Leave Details</Navbar.Brand>
-                 </Container>
-                 </Navbar>
-
-             <br></br> 
+   
 
 
      <div className="page">
@@ -121,9 +75,8 @@ export default function ApplyLeave() {
                 </div>
 
                    
-=======
-            <h1>ApplyLeave</h1>
->>>>>>> 63401c4212c868cb78ad2f538e3aa6ea809f5029
+
+
         </div>
 
 
@@ -160,7 +113,7 @@ export default function ApplyLeave() {
 
         </div>
         
-        </div>
+        
 
 
 
