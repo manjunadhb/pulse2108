@@ -22541,4 +22541,20 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.signUpCss {
+  background-image: url("https://assets.website-files.com/5b14df37b45b89efff85e133/5b14dfedd0d5fe56c1f291f9_travel-sign-up-webflow.jpg");
+  background-size: cover;
+}
+
+.signupImg {
+  width: 100%;
+  height: 590px;
+  border-radius: 20px;
 }/*# sourceMappingURL=App.css.map */
