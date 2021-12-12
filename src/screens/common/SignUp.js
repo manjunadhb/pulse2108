@@ -25,7 +25,7 @@ export default function SignUp() {
             <Carousel  >
   <Carousel.Item>
     <img
-      className="d-block"
+      className="d-block signupImg"
       src={brnStu1}
       alt="First slide"
     />
@@ -36,7 +36,7 @@ export default function SignUp() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 signupImg"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJt4-_o3PIYsBkYOEYU64gS14zd-w2pwAmQQ&usqp=CAU"
       alt="Second slide"
     />
@@ -48,7 +48,7 @@ export default function SignUp() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-100 signupImg"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEERdhDuJOauUWk6-fzmYRVsjyvqnnT7s11Q&usqp=CAU"
       alt="Third slide"
     />

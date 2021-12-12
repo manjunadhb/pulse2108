@@ -1,10 +1,11 @@
 import React from 'react'
 import {Link,Route,Routes,BrowserRoute} from 'react-router-dom'
-import {Button,Container,Nav,Navbar,NavDropdown} from 'react-bootstrap'
+import {Button,Container,Nav,Navbar,NavDropdown,Dropdown,DropdownButton,InputGroup,FormControl} from 'react-bootstrap'
 import pulseLogo from '../../images/brnlogopluse.png'
 import homeicon from '../../images/homeicon.png'
 import refreshlogo from '../../images/refresh.gif'
 import writelogo from '../../images/2907616.png'
+
 export default function Task() {
     return (
         <div>
@@ -45,11 +46,22 @@ export default function Task() {
         <div style={{border:'2px solid #1E90FF'}}>
           <div style={{border:'2px solid #1E90FF',height:'45px', backgroundColor:'dodgerblue',display:'flex',flexDirection:'row'}}><img style={{height:'35px',width:'25px',paddingBottom:'15px',color:'white'}} src={writelogo} alt='refresh logo'/><div><h5 style={{color:'white'}}>Task assigned to you</h5></div>
           <img style={{height:'80px',width:'80px',paddingBottom:'25px',position:'absolute' }} src={refreshlogo} alt='refresh logo'/></div>
-          
           </div>
-        
-          
-        </div>
+ <div style={{display:'inline-flex', justifyContent:'space-between'}}>
+ <div style={{display:'flex',flexDirection:'row',margin:'3px'}}><InputGroup className="mb-3">
+    <DropdownButton
+      variant="outline-secondary"
+      title="All"
+      id="input-group-dropdown-1" 
+    >
+      <Dropdown.Item href="#">5</Dropdown.Item>
+      <Dropdown.Item href="#">10</Dropdown.Item>
+      <Dropdown.Item href="#">15</Dropdown.Item>
+      <Dropdown.Item href="#">20</Dropdown.Item>
+      <Dropdown.Item href="#">25</Dropdown.Item>
+    </DropdownButton><h5 style={{paddingTop:'5px'}}>record</h5>
+  </InputGroup></div>
+  </div><div style={{display:'inline-flex',margin:'3px'}}><h5>My Search</h5><input></input></div></div>
 {/* import StudentNavbar from './StudentNavbar'
 
 export default function Task() {

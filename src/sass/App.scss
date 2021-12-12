@@ -3,8 +3,18 @@ body {
     background-color: aqua;
 }
 
+
+
 @import '../../src/screens/LandingPage.module.css';
+
+
+
+
+@import '_leavePage.scss';
 
 @import '_studentNavbar.scss';
 
 @import '_adminNavbar.scss';
+
+@import '_signUpPage.scss';
+
