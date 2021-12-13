@@ -1,10 +1,12 @@
 import React from 'react'
-import {Link,Route,Routes,BrowserRoute} from 'react-router-dom'
+// import {Link,Route,Routes,BrowserRoute} from 'react-router-dom'
 import {Container,Nav,Navbar,NavDropdown,Dropdown,DropdownButton,InputGroup} from 'react-bootstrap'
+import Table from 'react-bootstrap/Table'
 import pulseLogo from '../../images/brnlogopluse.png'
 import homeicon from '../../images/homeicon.png'
 import refreshlogo from '../../images/refresh.gif'
 import writelogo from '../../images/2907616.png'
+import StudentNavbar from './StudentNavbar'
 
 export default function Task() {
     return (
@@ -62,15 +64,116 @@ export default function Task() {
     </DropdownButton><h5 style={{paddingTop:'5px'}}>record</h5>
   </InputGroup></div>
   </div><div style={{display:'inline-flex',margin:'3px'}}><h5>My Search</h5><input></input></div></div>
-{/* import StudentNavbar from './StudentNavbar'
-
-export default function Task() {
-    return (
+  <div>
+  <Table responsive="sm" responsive="md" responsive="lg" responsive="xl">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>UID</th>
+        <th>ID</th>
+        <th> Type</th>
+        <th> Title</th>
+        <th> Requirements</th>
+        <th> Issues</th>
+        <th> Build to store</th>
+        <th> Deadline</th>
+        <th> MaX file size</th>
+        <th> Status</th>
+        <th> Points earned</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+      </tr>
+      <tr>
+      <td>2</td>
+      <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+      </tr>
+      <tr>
+      <td>3</td>
+      <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        
+      </tr>
+      <tr>
+      <td>4</td>
+      <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+      </tr>
+      <tr>
+      <td>5</td>
+      <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+      </tr>
+      <tr>
+      <td>6</td>
+      <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+      </tr>
+    </tbody>
+  </Table>
+</div>     
         <div>
 <StudentNavbar/>
             <h1>Tasks</h1>
-        </div>
-    ) */}
-    </div>
-    )
+        </div></div>
+ )   
 }
