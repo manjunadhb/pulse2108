@@ -8,6 +8,10 @@ body {
 @import '../../src/screens/LandingPage.module.css';
 
 
+@import '_studentDashboard.scss';
+@import './manageUser';
+
+
 
 
 @import '_leavePage.scss';
@@ -18,3 +22,5 @@ body {
 
 @import '_signUpPage.scss';
 
+@import '_stuTask.scss';
+@import '_taskReview.scss'

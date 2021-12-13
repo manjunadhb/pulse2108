@@ -33886,4 +33886,10 @@ textarea.form-control-lg {
   width: 100%;
   height: 590px;
   border-radius: 20px;
+}
+
+table, tbody, th, tr {
+  border: "1px solid grey";
+  display: "inline";
+  border-collapse: collapse;
 }/*# sourceMappingURL=App.css.map */
