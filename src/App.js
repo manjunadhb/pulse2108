@@ -5,7 +5,6 @@ import AdminDashBoard from './screens/admin/AdminDashBoard';
 import ForgotPassword from './screens/common/ForgotPassword';
 import SignUp from './screens/common/SignUp'
 import Home from './screens/student/Home';
-
 import '../src/sass/App.css';
 import DailyStausUpdate from './screens/student/DailyStausUpdate';
 import Task from './screens/student/Task';
