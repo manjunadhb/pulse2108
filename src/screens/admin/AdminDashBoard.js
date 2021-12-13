@@ -65,7 +65,7 @@ export default function AdminDashBoard() {
 
 
 
-<Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+<Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3 mt-3">
   <Tab eventKey="rankings" title="Rankings">
 
    <Ranking/>
