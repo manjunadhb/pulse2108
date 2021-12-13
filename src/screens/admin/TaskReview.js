@@ -2,8 +2,8 @@ import React from 'react'
 import { Table ,Form,Button,FormControl,Accordion} from 'react-bootstrap';
 import './App.css';
 
-import TaskTables from './componets/TaskTables';
-import TaskTables2 from './componets/TaskTables2';
+import TaskTables from './TaskTable';
+import TaskTables2 from './TaskTables2';
 
 export default function TaskReview() {
     return (
