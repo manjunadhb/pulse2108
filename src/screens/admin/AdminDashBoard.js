@@ -19,13 +19,8 @@ export default function AdminDashBoard() {
 
 
 
-<<<<<<< HEAD
-<Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3 mt-3">
-  <Tab eventKey="rankings" title="Rankings">
-=======
 <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
   <Tab eventKey="rankings" title="Rankings" variant="light">
->>>>>>> 090208b447bd70b97fd6fc2ecaa14aa954a9e7c1
 
    <Ranking/>
     
