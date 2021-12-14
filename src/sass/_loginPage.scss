@@ -1,0 +1,74 @@
+.mainContainer {
+   
+   
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    
+
+}
+
+.loginContainer {
+
+    
+    width: 50%;
+        
+  
+  
+}
+
+.logoContainer {
+
+    
+   
+    position: relative;
+    top: -90px;
+}
+
+.galleryContainer {
+
+    width: 50%;
+    background-image: url('https://wallpapercave.com/wp/wp9198806.jpg');
+    height: 1000px;
+   
+   
+    
+   
+  
+}
+
+.form {
+    position: relative;
+    top: -90px;
+}
+
+.formInput {
+  
+    border-radius: 60px;
+
+}
+
+.loginPageButton {
+
+    border-radius: 60px;
+    background-color: #5621db;
+}
+
+#copyRight {
+
+    position: relative;
+    top: -70px;
+}
+
+.carousel-indicators li { 
+    display: none;
+ }
+
+// @media only screen and (max-width: 600px) {
+
+//     .mainContainer{
+//         display: flex;
+//         flex-direction: column;
+//     }
+
+// }

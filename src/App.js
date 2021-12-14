@@ -39,6 +39,7 @@ import Asignment from './screens/admin/Asignment';
 import SeetingPage from './screens/admin/SeetingPage';
 import AdminLogout from './screens/admin/AdminLogout';
 import AdminTask from './screens/admin/AdminTask';
+import Login from './screens/common/Login';
 
 
 function App() {
@@ -86,6 +87,7 @@ function App() {
       <Route path="/assignment" element={<Asignment/>}/>
       <Route path="/setting" element={<SeetingPage/>}/>
       <Route path="/adminLogout" element={<AdminLogout/>}/>
+      <Route path="/Login" element={<Login/>}/>
       
 
 
