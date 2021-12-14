@@ -4,6 +4,89 @@ body {
   background-color: aqua;
 }
 
+.btnn {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 39px;
+  text-shadow: 3px 1px 0px #030000;
+  box-shadow: 1px 1px 5px #000000;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 28px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.btnn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.landingPageButtonContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 190px;
+}
+
+.landingPageMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://wallpapercave.com/uwp/uwp624717.png");
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.loginContainer {
+  width: 50%;
+}
+
+.logoContainer {
+  position: relative;
+  top: -90px;
+}
+
+.galleryContainer {
+  width: 50%;
+  background-image: url("https://wallpapercave.com/wp/wp9198806.jpg");
+  height: 1000px;
+}
+
+.form {
+  position: relative;
+  top: -90px;
+}
+
+.formInput {
+  border-radius: 60px;
+}
+
+.loginPageButton {
+  border-radius: 60px;
+  background-color: #5621db;
+}
+
+#copyRight {
+  position: relative;
+  top: -70px;
+}
+
+.carousel-indicators li {
+  display: none;
+}
+
 .head1 {
   display: flex;
   flex-direction: row;
@@ -33892,4 +33975,10 @@ table, tbody, th, tr {
   border: "1px solid grey";
   display: "inline";
   border-collapse: collapse;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=App.css.map */
