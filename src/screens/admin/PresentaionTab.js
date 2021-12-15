@@ -5,16 +5,20 @@ import '../../../src/sass/App.css';
 import { useState } from 'react';
 
 export default function PresentaionTab() {
-    const values = [true];
+  const values = [true];
     const [fullscreen, setFullscreen] = useState(true);
     const [show, setShow] = useState(false);
-  
+
+    
+    const [message, setMessage] = useState(false);
+    const [stuDetails, setStuDetails] = useState(false);
+
+
     function handleShow(breakpoint) {
       setFullscreen(breakpoint);
       setShow(true);
     }
 
-  
   
     return (
         <div>
@@ -38,9 +42,10 @@ Choose Current Batch  :  </Form.Label>
 </div>
 
 <div className="div2">
-<Button variant="primary">Get Participants</Button>
+<Button variant="primary" onClick={()=>setStuDetails(true)}>Get Participants</Button>
 <Button variant="primary">Choose Participant</Button>
-<Button variant="primary">Choose Topic</Button>
+
+<Button variant="primary" onClick={()=>setMessage(true)}>Choose Topic</Button>
 <Button variant="primary" onClick={handleShow}>
 Review Presentation      </Button>
 {/* {values.map((v, idx) => (
@@ -78,7 +83,7 @@ Review Presentation      </Button>
    </div> 
     </Card.Title>
     <Card.Text>
-    <Table striped bordered hover variant="danger">
+    <Table className="table1" striped bordered hover variant="danger">
     <thead>
               <tr>
                   <td>#</td>
@@ -208,6 +213,7 @@ Presentation  Duration:  </Form.Label>
 </div>
         </Modal.Body>
       </Modal>
+  
   
 
       {/* <Modal className="modal-dialog modal-xl modal-dialog modal-dialog-centered modal-dialog-scrollable"
@@ -367,20 +373,25 @@ Presentation  Duration:  </Form.Label>
 
             </div>
             <div className="presenParameters">
-            <div className="detailsStu"><h5>Student Details</h5>
-            <h6>Sandhya</h6>
-            <h6>Anusha</h6>
-            <h6>Shwetha</h6>
-            <h6>Shiney</h6></div>
-            <div className="detailsStu"><h5>Topic Details</h5>
+            
+            {stuDetails ? (<div className="detailsStu"><h5>Student Details</h5>
+<h6>John</h6>
+<h6>Shiney</h6>
+<h6>Anthony</h6>
+<h6>Twinkle</h6></div>): null}</div>
+            
+            {message ? (<div className="detailsStu"><h5>Topic Details</h5>
             <h6>Flex</h6>
+<h6>Redux</h6>
+<h6>React Router Dom</h6>
+<h6>Protective Routes</h6>
+<h6>Webpack</h6>
+<h6>Code Splitting</h6></div>): null}
+            {/* <h6>Flex</h6>
             <h6>Redux</h6>
             <h6>React Router Dom</h6>
-            <h6>Version Controller</h6>
+            <h6>Version Controller</h6> */}
 
-
-            </div>
-            </div>
             </div>
 
     )
