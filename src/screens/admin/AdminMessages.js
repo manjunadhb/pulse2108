@@ -13,62 +13,7 @@ export default function Meesages() {
              <AdminNavbar/>
             
 
-             <Button variant="primary" onClick={() => setShow(true)}>
-        Messages
-      </Button>
-
-      <Modal
-        show={show}
-        onHide={() => setShow(false)}
-        dialogClassName="modal-90w"
-        aria-labelledby="example-custom-modal-styling-title"
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="example-custom-modal-styling-title">
-            Review and Get Instalment
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <form className="formMessages">
-            <div className="labelName">
-              <label className="labelMessages">Send to*</label>
-              <select className="selectMessages" multiple>
-                <option selected="Batches">Select Batch</option>
-                <option value="2111">2111</option>
-                <option value="2110">2110</option>
-                <option value="2108">2108</option>
-                <option value="2106">2106</option>
-                <option value="2103">2103</option>
-                <option value="2101">2101</option>
-              </select>
-            </div>
-            <div>
-              <label className="selectMessages1">Category*</label>
-              <select>
-                <option selected="catG">Select</option>
-                <option value="Information">Information</option>
-                <option value="Opportunity">Job Opportunity</option>
-                <option value="FeeReminder">Fee Reminder</option>
-                <option value="Irregular">Irregular</option>
-                <option value="LatetoOfc">Late to Ofc</option>
-                <option value="Appreciate">Appreciate</option>
-              </select>
-            </div>
-            <div>
-              <label className="labelMessages1">Subject*</label>
-              <input className="inputMessages" type="text"></input>
-            </div>
-            <div>
-              <label className="labelMessages2">Message*</label>
-              <input className="inputMessages1" type="text"></input>
-            </div>
-            <div className="adminContainer">
-              <button className="btnClass">Send Message</button>
-              <button>Cancel</button>
-            </div>
-          </form>
-        </Modal.Body>
-      </Modal>
+       
 
       <table className="tabClass">
         <tr className="rowClass">
