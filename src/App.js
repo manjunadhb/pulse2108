@@ -5,7 +5,6 @@ import AdminDashBoard from './screens/admin/AdminDashBoard';
 import ForgotPassword from './screens/common/ForgotPassword';
 import SignUp from './screens/common/SignUp'
 import Home from './screens/student/Home';
-
 import '../src/sass/App.css';
 import DailyStausUpdate from './screens/student/DailyStausUpdate';
 import Task from './screens/student/Task';
@@ -40,12 +39,13 @@ import Asignment from './screens/admin/Asignment';
 import SeetingPage from './screens/admin/SeetingPage';
 import AdminLogout from './screens/admin/AdminLogout';
 import AdminTask from './screens/admin/AdminTask';
+import Login from './screens/common/Login';
 
 
 function App() {
   return (
     
-    <BrowserRouter>
+    <BrowserRouter>   
 
       <Routes>
      
@@ -87,6 +87,7 @@ function App() {
       <Route path="/assignment" element={<Asignment/>}/>
       <Route path="/setting" element={<SeetingPage/>}/>
       <Route path="/adminLogout" element={<AdminLogout/>}/>
+      <Route path="/Login" element={<Login/>}/>
       
 
 

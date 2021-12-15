@@ -1,5 +1,4 @@
 
-import classes from './LandingPage.module.css'
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
 
@@ -14,24 +13,28 @@ export default function LandingPage() {
 
     return (
 
-        <div className={classes.mainContainer}>
+        <div className="landingPageMainContainer">
 
-        <div className={classes.buttonContainer}>
+        <div className="landingPageButtonContainer">
 
             <div>
-            <button className={classes.btn} onClick={()=>{navigate("./student/StudentDashboard") }}>User Dashboard</button>
+            <button className='btnn' onClick={()=>{navigate("./student/StudentDashboard") }}>User Dashboard</button>
             </div>
 
             <div>
-            <button className={classes.btn} onClick={()=>{navigate("./admin/AdminDashBoard") }}>Admin Dashboard</button>
+            <button className='btnn' onClick={()=>{navigate("./admin/AdminDashBoard") }}>Admin Dashboard</button>
             </div>
 
             <div>
-            <button className={classes.btn} onClick={()=>{navigate("./common/ForgotPassword") }}>Forgot Password</button>
+            <button className='btnn' onClick={()=>{navigate("./common/ForgotPassword") }}>Forgot Password</button>
             </div>
 
             <div>
-            <button className={classes.btn} onClick={()=>{navigate("./common/SignUp") }} >Signup</button>
+            <button className='btnn' onClick={()=>{navigate("./common/SignUp") }} >Signup</button>
+            </div>
+
+            <div>
+            <button className='btnn' onClick={()=>{navigate("./Login") }} >Login</button>
             </div>
             
         </div>
