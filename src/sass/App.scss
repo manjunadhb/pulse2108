@@ -23,10 +23,22 @@ body {
 
 @import '_signUpPage.scss';
 
+
+@import '_messages.scss';
+
 @import '_stuTask.scss';
 @import '_taskReview.scss';
 @import '_adminMessages.scss';
 
+@import '_createrequests.scss';
+
 
 @import '_batches.scss';
+
+
+// <<<<<<< HEAD
+@import '_batches.scss';
+// =======
+// >>>>>>> 3bc29aaa06cfc560fb3be19e436f8d518daa8510
+
 @import '_adminPresentation.scss';
