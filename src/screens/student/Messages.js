@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link,Route,Routes,BrowserRoute} from 'react-router-dom'
-import {Button,Container,Nav,Navbar,NavDropdown,Table,Form,FormControl} from 'react-bootstrap'
+import {Button,Container,Nav,Navbar,NavDropdown,Table,Form,FormControl,Popover,Overlay,OverlayTrigger} from 'react-bootstrap'
 import pulseLogo from '../../images/brnlogopluse.png'
 import StudentNavbar from './StudentNavbar'
 
@@ -20,11 +20,11 @@ export default function Messages() {
       >
        
         <NavDropdown title="Records" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+          <NavDropdown.Item href="#action3">Test Message</NavDropdown.Item>
+          <NavDropdown.Item href="#action4">Information</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item href="#action5">
-            Something else here
+            Reminder
           </NavDropdown.Item>
         </NavDropdown>
         
@@ -51,22 +51,30 @@ export default function Messages() {
       <th>Delivered on</th>
     </tr>
   </thead>
+
   <tbody>
     <tr>
       <td>1</td>
       <td>Information</td>
-      <td>Test Message</td>
+      <Nav.Item>
+        <Nav.Link href="/home"><td>Test Message</td></Nav.Link>
+  </Nav.Item>
       <td>09-Dec-2021 06:1:38 pm</td>
     </tr>
     <tr>
       <td>2</td>
       <td>Information</td>
-      <td>Test Message</td>
+      <Nav.Item>
+        <Nav.Link><td>Test Message</td></Nav.Link>
+  </Nav.Item>
+  
       <td>09-Dec-2021 06:1:38 pm</td>
     </tr>
-   
   </tbody>
 </Table>
+
+
+
         </div>
     )
 }
