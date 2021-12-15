@@ -1,24 +1,100 @@
 @charset "UTF-8";
-@import '../../src/screens/LandingPage.module.css';
 body {
   background-color: aqua;
+}
+
+.btnn {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 39px;
+  text-shadow: 3px 1px 0px #030000;
+  box-shadow: 1px 1px 5px #000000;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 28px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.btnn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.landingPageButtonContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 190px;
+}
+
+.landingPageMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://wallpapercave.com/uwp/uwp624717.png");
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.loginContainer {
+  width: 50%;
+}
+
+.logoContainer {
+  position: relative;
+  top: -90px;
+}
+
+.galleryContainer {
+  width: 50%;
+  background-image: url("https://wallpapercave.com/wp/wp9198806.jpg");
+  height: 1000px;
+}
+
+.form {
+  position: relative;
+  top: -90px;
+}
+
+.formInput {
+  border-radius: 60px;
+}
+
+.loginPageButton {
+  border-radius: 60px;
+  background-color: #5621db;
+}
+
+#copyRight {
+  position: relative;
+  top: -70px;
+}
+
+.carousel-indicators li {
+  display: none;
 }
 
 .head1 {
   display: flex;
   flex-direction: row;
   color: #9b8181;
+  margin-left: 120px;
 }
 
-.subTitle {
-  position: relative;
-  left: 10%;
-  top: 10px;
-}
-
-.title {
-  position: relative;
-  left: 9%;
+sup {
+  font-size: 50px;
 }
 
 .page {
@@ -51,6 +127,7 @@ body {
   border-color: whitesmoke;
   border-radius: 7px;
   height: 40px;
+  width: 150px;
   border-color: whitesmoke;
 }
 
@@ -59,6 +136,7 @@ body {
   border-color: whitesmoke;
   border-radius: 7px;
   height: 40px;
+  width: 100px;
   border-color: whitesmoke;
 }
 
@@ -81,9 +159,44 @@ body {
   left: 30px;
 }
 
-.leavePage {
+.leaveDescription {
   position: relative;
   right: 25px;
+}
+
+.descriptionBox {
+  position: relative;
+  right: 25px;
+}
+
+.containerHome {
+  height: 20px;
+}
+
+.containerHome1 {
+  height: 40px;
+  background-color: #8e5fa2;
+  color: #fff;
+}
+
+.leaveDate {
+  position: relative;
+  right: 20px;
+}
+
+.leaveType {
+  position: relative;
+  right: 15px;
+}
+
+.dateStart {
+  position: relative;
+  right: 15px;
+}
+
+.dateEnd {
+  position: relative;
+  right: 20px;
 }
 
 /*!
@@ -56474,4 +56587,14 @@ textarea.form-control-lg {
   width: 200px;
   display: inline-block;
   margin: 5px;
+}
+.feeDetails {
+  overflow: scroll;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.table, th, td {
+  border: 1px solid black;
+
 }/*# sourceMappingURL=App.css.map */
