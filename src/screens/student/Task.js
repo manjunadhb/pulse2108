@@ -1,6 +1,6 @@
 import React from 'react'
 // import {Link,Route,Routes,BrowserRoute} from 'react-router-dom'
-import {Container,Nav,Navbar,NavDropdown,Dropdown,DropdownButton,InputGroup} from 'react-bootstrap'
+import {Container,Nav,Navbar,NavDropdown,Dropdown,DropdownButton,InputGroup,Pagination} from 'react-bootstrap'
 import Table from 'react-bootstrap/Table'
 import pulseLogo from '../../images/brnlogopluse.png'
 import homeicon from '../../images/homeicon.png'
@@ -70,8 +70,7 @@ export default function Task() {
   <div style={{display:'inline-flex',justifyContent:'space-between',margin:'3px'}}>
     <h5>My Search:</h5><input  type="text"></input>
     </div>
-    </div>
-    
+    </div> 
   <div>
   <Table responsive="sm" responsive="md" responsive="lg" responsive="xl">
     <thead>
@@ -102,7 +101,7 @@ export default function Task() {
         <td>Table cell</td>
         <td>Table cell</td>
         <td>Table cell</td>
-        <td>Table cell</td>
+        <td>pending</td>
         <td>Table cell</td>
       </tr>
       <tr>
@@ -179,6 +178,20 @@ export default function Task() {
     </tbody>
   </Table>
 </div>  
+<div style={{display:'flex',justifyContent:'flex-end'}}><Pagination>
+  <Pagination.First />
+  <Pagination.Prev />
+  <Pagination.Item>{1}</Pagination.Item>
+  <Pagination.Item>{2}</Pagination.Item>
+  <Pagination.Item>{3}</Pagination.Item>
+  <Pagination.Item active>{4}</Pagination.Item>
+  <Pagination.Item>{5}</Pagination.Item>
+  <Pagination.Item disabled>{6}</Pagination.Item>
+  <Pagination.Ellipsis />
+  <Pagination.Item>{20}</Pagination.Item>
+  <Pagination.Next />
+  <Pagination.Last />
+</Pagination></div>
 </div>   
 </div>
         {/* <div>
