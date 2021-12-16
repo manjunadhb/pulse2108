@@ -1,0 +1,55 @@
+.presenParameters{
+    display:flex;
+    flex-direction: row;
+}
+.div1{
+    width:50%;
+    text-align:left;
+    margin-left:20px;
+}
+.div2{
+    width:80%;
+    text-align:right;
+    margin-right:20px;
+    padding-right:10px;
+}
+.detailsStu{
+    height:200px;
+    width:30%;
+    border: 2px solid teal;
+    background-color:$danger;
+    margin:40px;
+    border-radius:15px;
+
+}
+.imageDetails{
+    border-radius:50%;
+    width:100px;
+}
+.detailsDiv{
+    width:50%;
+    text-align:center;
+height:200px;
+margin-top:50px;
+
+}
+.picDiv{
+    width:50%;
+    height:200px;
+    text-align:center;
+    margin-top:50px;
+    
+
+    }
+.toolsDiv{
+    float:right;
+}
+.addnewDiv{
+    float:left;
+}
+.parameterDiv{
+    width:70%;
+    margin:40px;
+}
+
+
