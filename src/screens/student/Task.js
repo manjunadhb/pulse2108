@@ -34,28 +34,31 @@ export default function Task() {
     </Nav>
   </Navbar.Collapse>
   </Container>
-</Navbar><div>
-            <div style={{color:"dark grey", display:'inline-flex',opacity:'70%'}}>
-              <h2>Tasks</h2><h6 style={{paddingTop:'15px'}}>Tasks assigned to You for completion and upload</h6></div>
-        <div>  <Navbar bg="light" variant="light">
+</Navbar>
+<div>     
+<div style={{color:"dark grey", display:'inline-flex',opacity:'70%'}}>
+ <h2>Tasks</h2><h6 style={{paddingTop:'15px'}}>Tasks assigned to You for completion and upload</h6></div>
+  <div><Navbar bg="light" variant="light">
     <Container>
     <Nav className="me-auto">
       <Nav.Link href="/home"><img style={{height:'19px',width:'30px',paddingBottom:'3px'}} src={homeicon} alt='Home icon'/>Home</Nav.Link>
       <Nav.Link href="/task">Tasks</Nav.Link>
     </Nav>
     </Container>
-  </Navbar></div>
-        <div style={{border:'2px solid #1E90FF'}}>
+  </Navbar>
+  </div>
+ <div style={{border:'2px solid #1E90FF'}}>
           <div style={{border:'2px solid #1E90FF',height:'45px', backgroundColor:'dodgerblue',display:'flex',flexDirection:'row'}}><img style={{height:'35px',width:'25px',paddingBottom:'15px',color:'white'}} src={writelogo} alt='refresh logo'/>
           <div><h5 style={{color:'white'}}>Task assigned to you</h5></div>
           </div>
-          </div>
- <div style={{display:'inline-flex', justifyContent:'space-between'}}>
- <div style={{display:'flex',flexDirection:'row',margin:'3px'}}><InputGroup className="mb-3">
-    <DropdownButton
+          
+ <div style={{display:'inline-flex', justifyContent:'space-between',width:'100%',height:'50px'}}>
+ <div style={{display:'flex',flexDirection:'row',margin:'3px'}}>
+   <InputGroup className="mb-3" >
+    <DropdownButton 
       variant="outline-secondary"
       title="All"
-      id="input-group-dropdown-1" 
+      id="input-group-dropdown-1"
     >
       <Dropdown.Item href="#">5</Dropdown.Item>
       <Dropdown.Item href="#">10</Dropdown.Item>
@@ -64,7 +67,11 @@ export default function Task() {
       <Dropdown.Item href="#">25</Dropdown.Item>
     </DropdownButton><h5 style={{paddingTop:'5px'}}>record</h5>
   </InputGroup></div>
-  </div><div style={{display:'inline-flex',margin:'3px'}}><h5>My Search</h5><input></input></div></div>
+  <div style={{display:'inline-flex',justifyContent:'space-between',margin:'3px'}}>
+    <h5>My Search:</h5><input  type="text"></input>
+    </div>
+    </div>
+    
   <div>
   <Table responsive="sm" responsive="md" responsive="lg" responsive="xl">
     <thead>
@@ -171,10 +178,13 @@ export default function Task() {
       </tr>
     </tbody>
   </Table>
-</div>     
-        <div>
+</div>  
+</div>   
+</div>
+        {/* <div>
 <StudentNavbar/>
             <h1>Tasks</h1>
-        </div></div>
+        </div> */}
+        </div>
  )   
 }
