@@ -47,7 +47,7 @@ export default function Task() {
   </Navbar></div>
         <div style={{border:'2px solid #1E90FF'}}>
           <div style={{border:'2px solid #1E90FF',height:'45px', backgroundColor:'dodgerblue',display:'flex',flexDirection:'row'}}><img style={{height:'35px',width:'25px',paddingBottom:'15px',color:'white'}} src={writelogo} alt='refresh logo'/><div><h5 style={{color:'white'}}>Task assigned to you</h5></div>
-          <img style={{height:'80px',width:'80px',paddingBottom:'25px',position:'absolute' }} src={refreshlogo} alt='refresh logo'/></div>
+          
           </div>
  <div style={{display:'inline-flex', justifyContent:'space-between'}}>
  <div style={{display:'flex',flexDirection:'row',margin:'3px'}}><InputGroup className="mb-3">
