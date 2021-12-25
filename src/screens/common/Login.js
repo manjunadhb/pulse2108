@@ -28,54 +28,10 @@ export default function Login() {
 
     
 
-      <div className="galleryContainer ">
-        {/* <Carousel
-          variant="transparent"
-          fade
-          indicators
-          false
-          style={{
-            position: "relative",
-            bottom: "-350px",
-            textAlign: "center",
-          }}
-        >
-          <Carousel.Item>
-            <h3
-              style={{
-                color: "white",
-                fontFamily: "Dancing Script, cursive",
-              }}
-            >
-              "Success is not final; failure is not fatal: <br />
-              It is the courage to continue that counts."
-            </h3>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <h3
-              style={{
-                color: "white",
-                fontFamily: "Dancing Script, cursive",
-              }}
-            >
-              Coming together is a beginning; keeping together is progress;<br/>
-              working together is success.
-            </h3>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <h3
-              style={{
-                color: "white",
-                fontFamily: "Dancing Script, cursive",
-              }}
-            >
-              However difficult life may seem, <br/>there is always something you can
-              do and succeed at.
-            </h3>
-          </Carousel.Item>
-        </Carousel> */}
+      <div className="galleryContainer  lg={7}
+              md={6}
+              sm={12} ">
+      
       </div>
 
       <div className="loginContainer">
