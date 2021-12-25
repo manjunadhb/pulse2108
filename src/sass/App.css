@@ -50,17 +50,23 @@ body {
 
 .loginContainer {
   width: 50%;
+  background-image: url("https://wallpapercave.com/wp/wp6399254.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
 }
 
 .logoContainer {
   position: relative;
-  top: -90px;
+  top: -110px;
 }
 
 .galleryContainer {
   width: 50%;
-  background-image: url("https://wallpapercave.com/wp/wp9198806.jpg");
+  background-image: url("../images//loginPage.jpg");
   height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .form {
@@ -6331,7 +6337,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   z-index: 2;
-  display: flex;
+  display: none;
   justify-content: center;
   padding: 0;
   margin-right: 15%;
@@ -17616,7 +17622,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   z-index: 2;
-  display: flex;
+  display: none;
   justify-content: center;
   padding: 0;
   margin-right: 15%;
@@ -28863,7 +28869,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   z-index: 2;
-  display: flex;
+  display: none;
   justify-content: center;
   padding: 0;
   margin-right: 15%;
@@ -40208,7 +40214,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   z-index: 2;
-  display: flex;
+  display: none;
   justify-content: center;
   padding: 0;
   margin-right: 15%;
@@ -51455,7 +51461,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   z-index: 2;
-  display: flex;
+  display: none;
   justify-content: center;
   padding: 0;
   margin-right: 15%;
@@ -62725,7 +62731,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 0;
   z-index: 2;
-  display: flex;
+  display: none;
   justify-content: center;
   padding: 0;
   margin-right: 15%;

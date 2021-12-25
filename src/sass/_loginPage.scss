@@ -8,10 +8,16 @@
 
 }
 
+
 .loginContainer {
 
     
     width: 50%;
+    background-image: url('https://wallpapercave.com/wp/wp6399254.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+   
         
   
   
@@ -22,14 +28,17 @@
     
    
     position: relative;
-    top: -90px;
+    top: -110px;
 }
 
 .galleryContainer {
 
     width: 50%;
-    background-image: url('https://wallpapercave.com/wp/wp9198806.jpg');
+    // background-image: url('https://picsum.photos/650/800');
+    background-image:url('../images//loginPage.jpg');
     height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
    
    
     
